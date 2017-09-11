@@ -36,7 +36,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'article'
+    'article',
+    'article.templatetags.custom_markdown'
 )
 
 TEMPLATE_PATH = os.path.join(BASE_DIR, 'article/templates')
